@@ -21,6 +21,8 @@
 		920FBAB71768410B00FF45E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920FBA991768410B00FF45E1 /* UIKit.framework */; };
 		920FBABF1768410B00FF45E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 920FBABD1768410B00FF45E1 /* InfoPlist.strings */; };
 		920FBAC11768410B00FF45E1 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 920FBAC01768410B00FF45E1 /* SpriteWalkthroughTests.m */; };
+		920FBAD1176842EF00FF45E1 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 920FBAD0176842EF00FF45E1 /* HelloScene.m */; };
+		920FBAD417685DE200FF45E1 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 920FBAD317685DE200FF45E1 /* SpaceshipScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		920FBABC1768410B00FF45E1 /* SpriteWalkthroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkthroughTests-Info.plist"; sourceTree = "<group>"; };
 		920FBABE1768410B00FF45E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		920FBAC01768410B00FF45E1 /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
+		920FBACF176842EF00FF45E1 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		920FBAD0176842EF00FF45E1 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
+		920FBAD217685DE200FF45E1 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		920FBAD317685DE200FF45E1 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				920FBAAB1768410B00FF45E1 /* SpriteViewController.m */,
 				920FBAAD1768410B00FF45E1 /* Images.xcassets */,
 				920FBA9C1768410B00FF45E1 /* Supporting Files */,
+				920FBACF176842EF00FF45E1 /* HelloScene.h */,
+				920FBAD0176842EF00FF45E1 /* HelloScene.m */,
+				920FBAD217685DE200FF45E1 /* SpaceshipScene.h */,
+				920FBAD317685DE200FF45E1 /* SpaceshipScene.m */,
 			);
 			path = SpriteWalkthrough;
 			sourceTree = "<group>";
@@ -251,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				920FBAA21768410B00FF45E1 /* main.m in Sources */,
+				920FBAD1176842EF00FF45E1 /* HelloScene.m in Sources */,
+				920FBAD417685DE200FF45E1 /* SpaceshipScene.m in Sources */,
 				920FBAA61768410B00FF45E1 /* SpriteAppDelegate.m in Sources */,
 				920FBAAC1768410B00FF45E1 /* SpriteViewController.m in Sources */,
 			);
