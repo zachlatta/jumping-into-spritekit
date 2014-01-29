@@ -33,7 +33,7 @@
     helloNode.name = @"helloNode";
     helloNode.text = @"Hello world!";
     helloNode.fontSize = 42;
-    helloNode.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidX(self.frame));
+    helloNode.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
     return helloNode;
 }
 
